@@ -20,23 +20,23 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<!-- for wildfly server setting--->
+			<!-- for wildfly server setting-->
 			<exclusions>
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-starter-tomcat</artifactId>
 				</exclusion>
 			</exclusions>
-			<!-- for wildfly server setting--->
+			<!-- for wildfly server setting-->
 		</dependency>
 
-<!-- for wildfly server setting--->		
+<!-- for wildfly server setting-->		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
-<!-- for wildfly server setting--->
+<!-- for wildfly server setting-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
